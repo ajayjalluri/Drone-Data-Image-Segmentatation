@@ -1,13 +1,7 @@
 
-## Import libraries
-
 
 import numpy as np
 
-import pandas as pd
-
-from tqdm import tqdm
-from glob import glob
 
 
 from sklearn.model_selection import train_test_split
@@ -15,7 +9,7 @@ from PIL import Image
 
 from tensorflow.keras.layers import Input, Conv2D, BatchNormalization, Activation, MaxPool2D, UpSampling2D, Concatenate
 from tensorflow.keras.models import Model
-from keras.utils import plot_model
+
 import tensorflow as tf
 import matplotlib.pyplot as plt
 from tensorflow.keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, EarlyStopping, Callback
