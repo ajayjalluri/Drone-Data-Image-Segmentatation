@@ -14,7 +14,7 @@ from tensorflow.keras.layers import Input, BatchNormalization, Activation, Dense
 from tensorflow.keras.layers import Conv2D
 from tensorflow.keras.layers import MaxPooling2D
 from tensorflow.keras.layers import concatenate, add
-from skimage.transform import resize
+
 import plotly.express as px
 from keras import backend as K
 
