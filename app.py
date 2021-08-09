@@ -2,9 +2,9 @@ import streamlit as st
 import altair as altc
 import pandas as pd
 import numpy as np
-import os, urllib, cv2
+import os, urllib
 from PIL import Image
-import cv2
+
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
