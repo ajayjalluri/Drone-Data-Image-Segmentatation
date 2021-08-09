@@ -16,7 +16,7 @@ from tensorflow.keras.layers import MaxPooling2D
 from tensorflow.keras.layers import concatenate, add
 
 import plotly.express as px
-from keras import backend as K
+
 
 from u_net import build_unet
 
